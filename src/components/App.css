@@ -1,0 +1,15 @@
+.app {
+  font-family: Arial, sans-serif;
+  background-color: #dae0e6;
+}
+
+.page-layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+}

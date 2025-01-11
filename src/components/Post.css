@@ -1,0 +1,36 @@
+.post {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.thumbnail-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.post-content {
+  flex: 1;
+}
+
+.subreddit {
+  font-weight: bold;
+  color: #0079d3;
+}
+
+.details {
+  color: #555;
+  font-size: 14px;
+}
